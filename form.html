@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_form</title>
+</head>
+<body>
+    <form action="">     
+        <h1>PAYMENT FORM</h1>
+        <h2>Contact information</h2>
+        <h2>required fileds are followed  by*</h2>
+        <p>Name: *<input type ="text" name="name" required></p>
+       
+            <fieldset>
+                <legend>Gender</legend>
+                <p> 
+                Male <input type ="radio" name="gender" id ="male"required>
+                female <input type ="radio" name="gender" id ="female">
+                 </p>
+    </fieldset>
+        <!---user address detail-->
+        <p>
+            <fieldset>
+                <legend>Address</legend>
+                    
+                    <p>Address <textarea name="address" id="address" cols ="50" rows="5"></textarea></p>
+                </fieldset>
+                    <p>Email:<input type ="email" name="email" id ="email"></p>
+                    <p>Pincode:<input type="number" name="pincode" id="pincode"></p>
+                   <hr>
+                    <h2>Payment information</h2>
+                        <p>Card Type:
+                            <select name="Card_type" id ="Card_type">
+                                <option value="">SELECT CARD TYPE</option>
+                                <option value="visa">Visa</option>
+                                <option value="rupay">Rupay</option>
+
+                            </select>
+                        </p>
+
+                        <p>
+                            Card Number:<input type ="number" name="card_number" id="card_number">
+                        </p>
+                        <p>
+                            CardExpire Date:<input type ="Date" name="exp_date" id ="exp_date">
+                        </p>
+                        <p>
+                            CVV:<input type="password" name="cvv_card" id ="cvv_card">
+                        </p>
+                        <input type="submit" value="paynow">
+            
+        </p>
+    </form>
+</body>
+</html>
