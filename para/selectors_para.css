@@ -1,8 +1,12 @@
 p{
     border: 3px groove rgb(81, 0, 255);
-    width: 50%;
+    width: 25%;
     padding:10px;
     text-align:justify;
-    font-family: comic;
+    font-family: comic sans-serif;
+    display:inline-block ;
+    margin: 10px;
+    background: linear-gradient(30deg,purple,green,yellow);
+    
 
 }
