@@ -1,0 +1,10 @@
+p{
+    border: 12px groove green;
+    width: 25%;
+    padding: 20px;
+    text-align: justify;
+    display:inline-block;
+    margin: 10px;
+    border-radius: 18px;
+    background:linear-gradient(45deg,red,yellow);
+}
